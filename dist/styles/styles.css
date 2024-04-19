@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "title-font";
+  src: url(../Fonts/asusrog_regular.ttf);
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #41ffff, #f468ff);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.title-font {
+  font-family: "title-font", "Courier New", Courier, monospace;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .title-font {
+    font-size: 2em;
+    margin: auto;
+  }
+  .search-size {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .title-font {
+    font-size: 2.5em;
+    margin-right: 2%;
+  }
+  .search-size {
+    width: 40%;
+  }
+  #toggle-icon {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .title-font {
+    font-size: 3.5em;
+    margin-right: 2%;
+  }
+  #toggle-icon {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .title-font {
+    font-size: 4em;
+    margin-right: 2%;
+  }
+  #toggle-icon {
+    visibility: hidden;
+  }
+}
